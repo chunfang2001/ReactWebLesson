@@ -1,0 +1,64 @@
+.cart{
+    margin:0px;
+    position:fixed;
+    width:50rem;
+    z-index: 100;
+    background-color: white;
+    top:20%;
+    max-height: 35rem;
+    overflow: auto;
+    padding:20px 30px;
+    border-radius: 10px;
+}
+.cart div{
+    margin: 0px;
+    list-style:none;
+}
+
+.setCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total h2{
+    margin:10px 2px;
+}
+
+.order{
+    display :flex;
+    justify-content: flex-end;
+}
+.order-confirm{
+    margin:5px;
+    padding:5px 20px;
+    width:120px;
+    border-radius: 20px;
+    background-color: brown;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.order-cancel{
+    margin:5px;
+    padding:7px 20px;
+    width:120px;
+    background-color: white;
+    border-radius: 20px;
+    border: 0.1px solid red;
+    color: red;
+    cursor: pointer;
+    font-size: 15px;
+}
+.order-confirm:hover{
+    background-color: rgb(85, 12, 12);
+}
+
+.order-cancel:hover{
+    font-weight: 700;
+}
