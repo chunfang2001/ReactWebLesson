@@ -1,0 +1,47 @@
+.itemBox{
+    display:flex;
+    border-bottom: 0.1px solid rgb(223, 223, 223);
+    justify-content: space-between;
+    padding-bottom:20px;
+}
+
+.item-left-part h2{
+    margin:10px 0px;
+}
+.item-left-part p{
+    font-style: italic;
+    margin:0;
+}
+.item-left-part h3{
+    margin:5px;
+    color:rgb(187, 28, 28);
+}
+.number{
+    display: flex;
+    align-items: center;
+    margin:10px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.number span{
+    margin-right:10px;
+}
+.button-position{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    padding:5px 30px;
+    background-color: brown;
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(85, 21, 21);
+}

@@ -1,0 +1,52 @@
+.header-button{
+    display: flex;
+    padding:8px 30px;
+    align-items: center;
+    background-color: rgb(93, 6, 6);
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.header-button-icon{
+    width: 20px;
+    color: white;
+}
+.header-button-label{
+    margin:0px 8px;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.header-button-amount{
+    padding: 2px 5px;
+    background-color: brown;
+    color: white;
+    width:30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.header-button:hover{
+    background-color: rgb(39, 4, 4);
+}
+.bump {
+    animation: bump 300ms ease-out;
+  }
+  
+@keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
