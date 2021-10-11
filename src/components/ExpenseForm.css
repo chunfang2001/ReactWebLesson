@@ -1,0 +1,35 @@
+.expense-form{
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    margin:0px auto;
+    width: 50rem;
+}
+.form-arr{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.form-arr>label{
+    flex:0.13; 
+}
+.form-arr>input{
+    font-size: 18px;
+    flex:0.3;
+    border:none;
+    outline:none;
+}
+.form-btn-loc{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-btn{
+    padding:10px;
+    border-radius:10px;
+    border: 0.1 solid rgb(124, 124, 240)
+}
+.form-btn:hover{
+    background-color: rgb(187, 187, 187);
+}

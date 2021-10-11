@@ -1,0 +1,14 @@
+.expense{
+    display: flex;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 30px;
+    margin:0px auto;
+    width: 50rem;
+    justify-content: center;
+}
+.expense-btn{
+    padding: 10px;
+    border-radius: 5px;
+}

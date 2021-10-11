@@ -1,0 +1,7 @@
+.expense-chart{
+    display: flex;
+    padding:20px;
+    background-color: burlywood;
+    border-radius: 5px;
+    justify-content: space-between;
+}
