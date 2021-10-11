@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    background-color: rgb(20, 148, 105);
+    justify-content: space-around;
+    padding:10px;
+    align-items: center;
+    height: 3rem;
+}
+
+.navbar{
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li:hover{
+    cursor: pointer;
+    color:rgb(175, 245, 218);
+    border-bottom: 2px solid rgb(175, 245, 218);
+}
+.active-navbar{
+    cursor: pointer;
+    color:rgb(175, 245, 218);
+    border-bottom: 2px solid rgb(175, 245, 218);
+}
+h1{
+    margin:0;
+    color: white;
+    font-weight:500
+}
